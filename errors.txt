@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script_battle/battle/battle.rpy", line 232: expected statement.
+    init_map(11, 8)
+                   ^
+
+Ren'Py Version: Ren'Py 7.4.8.1895
+Fri Sep 24 15:13:24 2021

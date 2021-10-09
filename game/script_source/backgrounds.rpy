@@ -1,0 +1,45 @@
+# 背景图片资源
+
+# 人间
+image yaofang = "images/bg/药房.jpg"
+image feiqi = "images/bg/废弃古宅.jpg"
+image yuanzi = "images/bg/大宅院子.jpg"
+image xiaozhen = "images/bg/小镇.jpg"
+image wuchang = "images/bg/武场外院子.jpg"
+image yishiting = "images/bg/议事厅.jpg"
+
+# 自然
+image yangshan a = "images/bg/阳山1.png"
+image yangshan b = "images/bg/阳山2.png"
+image yangwangtiankong = "images/bg/仰望天空_720.jpg"
+image shulin a = "images/bg/树林1.jpg"
+image shulin b = "images/bg/树林2.jpg"
+image shangshan a = "images/bg/树林2.jpg"
+image shangshan b = "images/bg/山路.jpg"
+image tiankong a = "images/bg/天空-霞光_720.jpg"
+image tiankong xialuo = "images/bg/天空 (2)_720.jpg"
+image tiankong b = "images/bg/天空-云朵(6)_720.jpg"
+image zhulin = "images/bg/竹林1.jpg"
+image pubu = "images/bg/瀑布_720.jpg"
+
+# 云浮山
+image shanmen = "images/bg/山门.jpg"
+image yunfushan_far = "images/bg/山间建筑-白天_720.jpg"
+image yunfushan_far b = "images/bg/山间建筑-黄昏_720.jpg"
+image yunfushan_far c = "images/bg/山间建筑-开灯_720.jpg"
+image yunfushan_door = "images/bg/寺庙白天_720.jpg"
+image yunfushan quanjing = "images/bg/云浮山-全景.png"
+image yunfushan qiandian = "images/bg/云浮山-前殿.jpg"
+image yunfushan ceshi = "images/bg/武场外院子.jpg"
+image yunfushan guangchang = "images/bg/云浮山-广场.jpg"
+image yunfushan renwu = "images/bg/接任务.jpg"
+image yunfushan zhuchu = "images/bg/云浮山-住处.jpg"
+image yunfushan cangjingge = "images/bg/藏经阁_720.jpg"
+image yunfushan shiliansenlin = "images/bg/试炼森林.jpg"
+
+image tiantaifeng xiaowu1 = "images/bg/天台峰-小屋.jpg"
+image tiantaifeng xiaowu2 = "images/bg/天台峰-小屋2.jpg"
+image tiantaifeng fangjian = "images/bg/天台峰-房间.jpg"
+image tiantaifeng zhulin = "images/bg/天台峰-竹林.jpg"
+image tiantaifeng guangchang = "images/bg/天台峰-广场.jpg"
+image tiantaifeng diaoxiang = "images/bg/天台峰-雕像.jpg"
