@@ -1,7 +1,7 @@
 transform CG_800_600:
     xcenter 0.5
     ycenter 0.5
-    zoom 1.55
+    zoom 1.6
 
 transform objpos(x=0.5, y=1.0, z=0.55, a=1.0):
     subpixel True
@@ -301,14 +301,13 @@ transform hide_tb(y=100, t=0.25):
     parallel:
         linear t*2 yoffset y
 
-transform hide_rl(x=100, t=0.25):
+transform hide_rl(x=100, t=0.5):
     subpixel True
-    alpha 1.0
     xoffset 0
     parallel:
         easein t alpha 0.0
     parallel:
-        linear t*2 xoffset x
+        linear t xoffset x
 
 
 ####表情
@@ -642,6 +641,7 @@ define tran_close = MultipleTransition([False, close ,Solid("#000"), close ,True
 define tran_water = ImageDissolve("script_effect/common/rule/watertran.png", 1.5, 256)
 define tran_light = ImageDissolve("script_effect/common/rule/snaketran.png", 0.5, 128)
 define tran_fog = ImageDissolve("script_effect/common/rule/fogtran.png", 1.0, 256)
+define tran_crystal = ImageDissolve("script_effect/common/rule/crystal_bt.png", 1.0, 32)
 define tran_fast = ImageDissolve("script_effect/common/rule/fasttran.png", 0.5, 64)
 define tran_updown = ImageDissolve("script_effect/common/rule/updowntran.png", 0.5, 64)
 define tran_uf = ImageDissolve("script_effect/common/rule/s2.png", 0.5, 64)

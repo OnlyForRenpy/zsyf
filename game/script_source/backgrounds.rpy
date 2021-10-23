@@ -21,6 +21,7 @@ image tiankong xialuo = "images/bg/天空 (2)_720.jpg"
 image tiankong b = "images/bg/天空-云朵(6)_720.jpg"
 image zhulin = "images/bg/竹林1.jpg"
 image pubu = "images/bg/瀑布_720.jpg"
+image xueshanjiaoxia = "images/bg/雪山脚下-白天_720.jpg"
 
 # 云浮山
 image shanmen = "images/bg/山门.jpg"
@@ -36,10 +37,15 @@ image yunfushan renwu = "images/bg/接任务.jpg"
 image yunfushan zhuchu = "images/bg/云浮山-住处.jpg"
 image yunfushan cangjingge = "images/bg/藏经阁_720.jpg"
 image yunfushan shiliansenlin = "images/bg/试炼森林.jpg"
+image yunfushan lianwuchang = "images/bg/云浮山-练武场.jpg"
 
 image tiantaifeng xiaowu1 = "images/bg/天台峰-小屋.jpg"
+image tiantaifeng night = "images/bg/天台峰-夜.jpg"
 image tiantaifeng xiaowu2 = "images/bg/天台峰-小屋2.jpg"
+image tiantaifeng xiaowu2 night = "images/bg/天台峰-房间2-夜.jpg"
 image tiantaifeng fangjian = "images/bg/天台峰-房间.jpg"
 image tiantaifeng zhulin = "images/bg/天台峰-竹林.jpg"
 image tiantaifeng guangchang = "images/bg/天台峰-广场.jpg"
 image tiantaifeng diaoxiang = "images/bg/天台峰-雕像.jpg"
+
+image kunwucheng = "images/bg/昆吾城.png"

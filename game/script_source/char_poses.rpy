@@ -15,6 +15,8 @@ transform pos_zmz:
     objpos(y=0.6, z=0.4)
 transform pos_zmz_sikao:
     objpos(y=360+200, z=0.50)
+transform pos_zmz_toutong:
+    objpos(y=0.9, z=0.6)
 transform pos_zmz_xiaqi:
     yalign 1.0
     xcenter 640

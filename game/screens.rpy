@@ -355,6 +355,10 @@ screen choseChapters():
                 action Start("story_10_1")
             textbutton _("八、  原文12章"):
                 action Start("story_12_1")
+            textbutton _("九、  原文13-14章"):
+                action Start("story_13_1")
+            textbutton _("十、  原文15-16章"):
+                action Start("story_15_1")
 
     textbutton _("返回"):
         # at return_button

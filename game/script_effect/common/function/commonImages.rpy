@@ -35,11 +35,11 @@ image snow_white_fast:
     contains:
         "snow_white_big_fast"
 image white_small:
-    "effects_utils/common/snow_white_single.png"
+    "script_effect/common/snow_white_single.png"
     size(4, 4)
     white_alt
 image white_big:
-    "effects_utils/common/snow_white_single.png"
+    "script_effect/common/snow_white_single.png"
     size(7, 7)
     white_alt
 transform white_alt:
@@ -69,11 +69,11 @@ image snow_yellow:
     contains:
         "snow_yellow_big"
 image yellow_small:
-    "effects_utils/common/snow_yellow_single.png"
+    "script_effect/common/snow_yellow_single.png"
     size(4, 4)
     white_alt
 image yellow_big:
-    "effects_utils/common/snow_yellow_single.png"
+    "script_effect/common/snow_yellow_single.png"
     size(7, 7)
     white_alt
 
@@ -85,7 +85,7 @@ image snow_blood:
     contains:
         "snow_blood2"
 image blood_single:
-    "effects_utils/common/snow_blood_single.png"
+    "script_effect/common/snow_blood_single.png"
     blood_alt
 transform blood_alt:
     zoom 1.0
@@ -125,7 +125,7 @@ transform blood_alt:
 # 流血
 image blood:
     subpixel True
-    "effects_utils/common/snow_blood_single.png"
+    "script_effect/common/snow_blood_single.png"
     zoom 0.75
     alpha 0.75
     choice:
@@ -154,64 +154,76 @@ image blood_shed:
 # 灰屏
 image noise:
     truecenter
-    "effects_utils/common/noise1.png"
+    "script_effect/common/noise1.png"
     pause 0.1
-    "effects_utils/common/noise2.png"
+    "script_effect/common/noise2.png"
     pause 0.1
-    "effects_utils/common/noise3.png"
+    "script_effect/common/noise3.png"
     pause 0.1
-    "effects_utils/common/noise4.png"
+    "script_effect/common/noise4.png"
     pause 0.1
     xzoom -1
-    "effects_utils/common/noise1.png"
+    "script_effect/common/noise1.png"
     pause 0.1
-    "effects_utils/common/noise2.png"
+    "script_effect/common/noise2.png"
     pause 0.1
-    "effects_utils/common/noise3.png"
+    "script_effect/common/noise3.png"
     pause 0.1
-    "effects_utils/common/noise4.png"
+    "script_effect/common/noise4.png"
     pause 0.1
     yzoom -1
-    "effects_utils/common/noise1.png"
+    "script_effect/common/noise1.png"
     pause 0.1
-    "effects_utils/common/noise2.png"
+    "script_effect/common/noise2.png"
     pause 0.1
-    "effects_utils/common/noise3.png"
+    "script_effect/common/noise3.png"
     pause 0.1
-    "effects_utils/common/noise4.png"
+    "script_effect/common/noise4.png"
     pause 0.1
     xzoom 1
-    "effects_utils/common/noise1.png"
+    "script_effect/common/noise1.png"
     pause 0.1
-    "effects_utils/common/noise2.png"
+    "script_effect/common/noise2.png"
     pause 0.1
-    "effects_utils/common/noise3.png"
+    "script_effect/common/noise3.png"
     pause 0.1
-    "effects_utils/common/noise4.png"
+    "script_effect/common/noise4.png"
     pause 0.1
     yzoom 1
     repeat
 
 image linework:
     truecenter
-    "effects_utils/common/linework_01.png"
-    pause 0.06
-    "effects_utils/common/linework_02.png"
-    pause 0.06
-    "effects_utils/common/linework_03.png"
-    pause 0.06
+    "script_effect/common/linework_01.png"
+    pause 0.12
+    "script_effect/common/linework_02.png"
+    pause 0.12
+    "script_effect/common/linework_03.png"
+    pause 0.12
     repeat
 
-image fastwork:
+image fastwork_lr:
     truecenter
-    "effects_utils/common/fastwork_01.png"
-    pause 0.06
-    "effects_utils/common/fastwork_02.png"
-    pause 0.06
-    "effects_utils/common/fastwork_03.png"
-    pause 0.06
-    "effects_utils/common/fastwork_04.png"
-    pause 0.06
+    "script_effect/common/fastwork_01.png"
+    pause 0.12
+    "script_effect/common/fastwork_02.png"
+    pause 0.12
+    "script_effect/common/fastwork_03.png"
+    pause 0.12
+    "script_effect/common/fastwork_04.png"
+    pause 0.12
+    repeat
+
+image fastwork_ud:
+    truecenter
+    "script_effect/common/fastwork_ud_01.png"
+    pause 0.12
+    "script_effect/common/fastwork_ud_02.png"
+    pause 0.12
+    "script_effect/common/fastwork_ud_03.png"
+    pause 0.12
+    "script_effect/common/fastwork_ud_04.png"
+    pause 0.12
     repeat
 
 image credits_text = ParameterizedText(style="credits_text", ycenter = 0.5, xcenter=0.5)

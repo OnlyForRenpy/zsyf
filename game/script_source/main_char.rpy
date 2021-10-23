@@ -33,6 +33,47 @@ image cl yingzhan dark = "dark:cl yingzhan"
 image cl yingzhan blood= "images/char/长离/长离-迎战-血.png"
 image cl yingzhan blood dark = "dark:cl yingzhan blood"
 
+# 长离带腰坠
+image cl b = "images/char/长离/长离-玛瑙-普通.png"
+image cl b dark = im.MatrixColor(
+    "images/char/长离/长离-普通.png",
+    im.matrix.tint(0.5, 0.5, 0.5)
+)
+image cl b kunhuo = "images/char/长离/长离-玛瑙-困惑.png"
+image cl b kunhuo dark = im.MatrixColor(
+    "images/char/长离/长离-困惑.png",
+    im.matrix.tint(0.5, 0.5, 0.5)
+)
+image cl b dazuo = "images/char/长离/长离-打坐-玛瑙-普通.png"
+image cl b dazuo dark = im.MatrixColor(
+    "images/char/长离/长离-打坐-普通.png",
+    im.matrix.tint(0.5, 0.5, 0.5)
+)
+image cl b dazuo biyan = "images/char/长离/长离-打坐-玛瑙-普通闭眼.png"
+image cl b dazuo biyan dark = im.MatrixColor(
+    "images/char/长离/长离-打坐-普通闭眼.png",
+    im.matrix.tint(0.5, 0.5, 0.5)
+)
+image cl b dazuo biyan tongku = "images/char/长离/长离-打坐-玛瑙-痛苦闭眼.png"
+
+# 长离换发型
+image cl c = "images/char/长离/长离2-普通.png"
+image cl c wuyaozhui= "images/char/长离/长离2-普通-无腰坠.png"
+image cl c dark = im.MatrixColor(
+    "images/char/长离/长离2-普通.png",
+    im.matrix.tint(0.5, 0.5, 0.5)
+)
+image cl c kunhuo = "images/char/长离/长离2-疑惑.png"
+image cl c kunhuo dark = im.MatrixColor(
+    "images/char/长离/长离2-困惑.png",
+    im.matrix.tint(0.5, 0.5, 0.5)
+)
+image cl c chijing = "images/char/长离/长离2-吃惊.png"
+image cl c chijing dark = im.MatrixColor(
+    "images/char/长离/长离2-吃惊.png",
+    im.matrix.tint(0.5, 0.5, 0.5)
+)
+
 define zmz = Character("钟明烛", image = "zmz", what_size = 28, what_prefix = "『", what_suffix = "』")
 image zmz = "images/char/钟明烛/钟明烛1-普通.png"
 image zmz kunbang = "images/char/钟明烛/钟明烛1-捆绑.png"
@@ -56,17 +97,33 @@ image zmz shengqixiao = "images/char/钟明烛/钟明烛1-生气笑.png"
 
 image zmz b = "images/char/钟明烛/钟明烛2-普通.png"
 image zmz b flip = im.Flip("images/char/钟明烛/钟明烛2-普通.png", horizontal=True)
+image zmz b dark = im.MatrixColor(
+    "images/char/钟明烛/钟明烛2-普通.png",
+    im.matrix.tint(0.5, 0.5, 0.5)
+)
 image zmz b chijing = "images/char/钟明烛/钟明烛2-吃惊.png"
 image zmz b shengqi = "images/char/钟明烛/钟明烛2-生气.png"
+image zmz b shengqixiao = "images/char/钟明烛/钟明烛2-生气笑.png"
 image zmz b miyanxiao = "images/char/钟明烛/钟明烛2-眯眼笑.png"
+image zmz b miyanxiao flip = im.Flip("images/char/钟明烛/钟明烛2-眯眼笑.png", horizontal=True)
+image zmz b digu = "images/char/钟明烛/钟明烛2-嘀咕.png"
 image zmz b sikao = "images/char/钟明烛/钟明烛2-思考.png"
 image zmz b sikao dark = im.MatrixColor(
     "images/char/钟明烛/钟明烛2-思考.png",
     im.matrix.tint(0.5, 0.5, 0.5)
 )
+image zmz b xiee = "images/char/钟明烛/钟明烛2-邪恶.png"
 image zmz b ganga = "images/char/钟明烛/钟明烛2-尴尬.png"
+image zmz b ganga flip = im.Flip("images/char/钟明烛/钟明烛2-尴尬.png", horizontal=True)
 image zmz b xiaqi = "images/char/钟明烛/钟明烛2-下棋.png"
 image zmz b tanqi = "images/char/钟明烛/钟明烛2-叹气.png"
+image zmz b tanqi flip = im.Flip("images/char/钟明烛/钟明烛2-叹气.png", horizontal=True)
+image zmz b tanqi dark = im.MatrixColor(
+    "images/char/钟明烛/钟明烛2-叹气.png",
+    im.matrix.tint(0.5, 0.5, 0.5)
+)
+image zmz b toutong = "images/char/钟明烛/钟明烛2-头痛.png"
+image zmz b wugu = "images/char/钟明烛/钟明烛2-无辜.png"
 
 define yy = Character("云逸", image = "yy", what_size = 28, what_prefix = "『", what_suffix = "』")
 image yy = "images/char/其他/云逸-普通.png"
@@ -126,3 +183,22 @@ image nsc = "images/char/其他/南司楚-普通.png"
 image nsc fennu = "images/char/其他/南司楚-愤怒.png"
 
 define wh = Character("吴回", image = "wh", what_size = 30, what_color = "#000", what_prefix = "『", what_suffix = "』")
+
+define jty = Character("季彤崖", image = "jty", what_size = 28, what_prefix = "『", what_suffix = "』")
+image jty = "images/char/其他/弟子-普通.png"
+image jty nanguo = "images/char/其他/弟子-难过.png"
+image jty deyi = "images/char/其他/弟子-得意.png"
+image jty yansu = "images/char/其他/弟子-严肃.png"
+image jty yansu dark = im.MatrixColor(
+    "images/char/其他/弟子-严肃.png",
+    im.matrix.tint(0.5, 0.5, 0.5)
+)
+
+define chengl = Character("季彤崖", image = "chengl", what_size = 28, what_prefix = "『", what_suffix = "』")
+image chengl = "images/char/其他/程凌-普通.png"
+image chengl fennu = "images/char/其他/程凌-愤怒.png"
+image chengl shoushang = "images/char/其他/程凌-受伤.png"
+
+define lhy = Character("柳寒烟", image = "lhy", what_size = 28, what_prefix = "『", what_suffix = "』")
+image lhy = "images/char/其他/柳寒烟-普通.png"
+image lhy yansu = "images/char/其他/柳寒烟-严肃.png"
